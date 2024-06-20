@@ -14,6 +14,7 @@ const StyledAppLayout = styled.section`
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   flex-grow: 1;
+  position: relative;
 `;
 
 const Img = styled.img`
@@ -21,26 +22,25 @@ const Img = styled.img`
   width: 100%;
   height: 300px;
   object-fit: cover;
-  position: relative;
+  position: absolute;
 `;
 
 const Main = styled.main`
-  position: absolute;
-  top: 160px;
+  position: relative;
   width: 100%;
-  margin: 0 auto;
-  margin-bottom: 2rem;
+  margin: 160px auto;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 32px;
+  z-index: 2;
 `;
 
 const MainContent = styled.div`
   width: 1400px;
   margin: 0 auto;
   background-color: var(--color-black-600);
-  padding: 4rem;
+  padding: 5.5rem;
   color: var(--color-grey-500);
   border-radius: var(--border-radius-xl);
 `;
@@ -53,7 +53,7 @@ const CardWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
-  grid-gap: 3rem;
+  grid-gap: 4rem 2.5rem;
   width: 1200px;
   margin: 0 auto;
   margin-top: 50px;

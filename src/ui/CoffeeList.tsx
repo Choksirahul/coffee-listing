@@ -11,7 +11,7 @@ const Card = styled.div`
 `;
 
 const CardImgWrapper = styled.div`
-  height: 250px;
+  height: 220px;
   position: relative;
   margin-bottom: 15px;
 `;

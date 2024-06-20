@@ -6,6 +6,7 @@ const ButtonWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 `;
 
 export default function ButtonGroup({ activeTab, handleViewCoffee }) {
