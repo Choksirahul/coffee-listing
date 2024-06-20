@@ -7,7 +7,7 @@ const ListingHeader = styled.div`
   text-align: center;
   margin: 0 auto;
   width: 45%;
-  background-image: url("../../public/vector.svg");
+  background-image: url("public/vector.svg");
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 350px 150px;
